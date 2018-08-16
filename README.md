@@ -1,2 +1,1 @@
-# formify
-Django Web-app to work with forms.
+React approach to Forms
