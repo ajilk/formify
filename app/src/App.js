@@ -17,7 +17,7 @@ const App = ({dataAsString}) => (<div><JsonForms/><pre>{dataAsString}</pre></div
 	}
 */
 const mapStateToProps = state => {
-  return { dataAsString: JSON.stringify(getData(state), ["age"], 2) }
+  return { dataAsString: JSON.stringify(getData(state), null, "\t") }
 };
 
 

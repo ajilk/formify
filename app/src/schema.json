@@ -2,20 +2,62 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string"
-    },
-    "gender": {
       "type": "string",
-	  "enum": [
-		  "Male",
-		  "Female"
-	  ]
+      "minLength": 3,
+      "description": "Please enter your name"
     },
-	"age": {
-		"type" : "integer"
-	}
+    "vegetarian": {
+      "type": "boolean"
+    },
+    "birthDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "nationality": {
+      "type": "string",
+      "enum": [
+        "DE",
+        "IT",
+        "JP",
+        "US",
+        "RU",
+        "Other"
+      ]
+    },
+    "personalData": {
+      "type": "object",
+      "properties": {
+        "age": {
+          "type": "integer",
+          "description": "Please enter your age.",
+          "maximum": 100
+        },
+        "height": {
+          "type": "number"
+        },
+        "drivingSkill": {
+          "type": "number",
+          "maximum": 10,
+          "minimum": 1,
+          "default": 7
+        }
+      },
+      "required": [
+        "age",
+        "height"
+      ]
+    },
+    "occupation": {
+      "type": "string",
+      "description": "What do you do?"
+    },
+    "postalCode": {
+      "type": "string",
+      "maxLength": 5
+    }
   },
   "required": [
-    "name"
+    "occupation",
+    "nationality"
   ]
 }
