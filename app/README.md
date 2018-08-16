@@ -1,6 +1,6 @@
 # [JSON Forms React App](https://jsonforms.io)
 
-Execute `npm ci` to install the prerequisites. If you want to have the latest released versions use `npm install`.
+Execute `npm ci` to install the prerequisites. If you want to have the latest released versions use `npm install`.  
 Execute `npm start` to start the application.
  
 ## File Structure
