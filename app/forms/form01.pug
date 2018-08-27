@@ -1,0 +1,11 @@
+include ../views/main
+form(action="01/results", method="POST")
+	div(class = 'mydiv')
+		h1 Hello #{user.nickName}
+		div(class = 'form-group')
+			label(for = "firstName") First Name
+			input(class = 'form-control form-control-lg' name = "firstName" placeholder="e.g John" value = user.firstName)
+			label(for = "lastName") Last Name
+			input(class = 'form-control form-control-lg' name = "lastName" placeholder="e.g Doe" value=user.lastName)
+		|
+		button(class = "btn btn-success" type = "submit") Submit
