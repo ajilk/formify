@@ -3,12 +3,12 @@ Forms based on models where its results are substitued into a corresponding
 pdf form
 ## Install
 ```
-# Create virtual environment
-virtaulenv -p path/to/python3
-# Install required packages
-pip install -r requirements
-# Run server
-python manage.py runserver localhost:3000
+Create virtual environment
+$ virtaulenv -p path/to/python3
+Install required packages
+$ pip install -r requirements
+Run server
+$ python manage.py runserver localhost:3000
 ```
 
 ## ToDo
