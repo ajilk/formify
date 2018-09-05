@@ -35,4 +35,6 @@ https://simpleisbetterthancomplex.com/2015/12/04/package-of-the-week-django-widg
 Something was wrong
 copy add_label_class function from github
 
-
+# YASSSSSS
+https://docs.djangoproject.com/en/2.1/ref/forms/api/#accessing-clean-data
+# We can access form data as json easily
