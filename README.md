@@ -2,14 +2,13 @@
 Forms based on models where its results are substitued into a corresponding
 pdf form
 ## Install
+Clone > Setup virtual environment > Install Requirements > Run Server
 ```
-Create virtual environment
-$ virtaulenv -p path/to/python3 formify
-$ cd formify
+$ git clone https://github.com/eldorbekpulatov/formify.git
+$ virtaulenv -p path/to/python3 .
 $ source ../bin/activate
-Install required packages
+$ cd formify
 $ pip install -r requirements
-Run server
 $ python manage.py runserver localhost:3000
 ```
 
