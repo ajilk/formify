@@ -1,4 +1,6 @@
-# Set Up Models __Priority HIGH__
+# Under Construction 
+
+## Set Up Models __Priority HIGH__
 
 ## Structure
 ## Collect App
@@ -20,21 +22,21 @@ PersonalInfo has fields:
 - sex
 
 
-## Form contains Models (e.g Patient.PersonalInfo)
+# Design Patterns
+### Form contains Models (e.g Patient.PersonalInfo)
 
-
-# IMPORTANT: We do not need to keep writing forms. We need to write once. 
-# And that is it. Why because form is specified by a model and a model
-# already specifies everything about the form. 
-# Form are rendered always exactly the same. So go through the fields
-# that model describes and display them.
-
-# COPY!!!
+### COPY!!!
 https://simpleisbetterthancomplex.com/2015/12/04/package-of-the-week-django-widget-tweaks.html
 
 Something was wrong
 copy add_label_class function from github
 
-# YASSSSSS
+### Meat of the project
+### We can access form data as json easily
 https://docs.djangoproject.com/en/2.1/ref/forms/api/#accessing-clean-data
-# We can access form data as json easily
+
+## IMPORTANT: 
+*We do not need to keep writing forms. We need to write once And that is it.
+Why because form is specified by a model and a model already specifies
+everything about the form. Form are rendered always exactly the same. So go
+through the fields that model describes and display them.*
