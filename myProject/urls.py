@@ -19,10 +19,12 @@ from .views import index
 from django.conf.urls.static import static
 from django.conf import settings
 
+from django.urls import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/', index, name='index'),
+    path('collect/', include('collect.urls'), name='collect'),
     path('', index)
 ]
 
