@@ -4,7 +4,9 @@ pdf form
 ## Install
 ```
 Create virtual environment
-$ virtaulenv -p path/to/python3
+$ virtaulenv -p path/to/python3 formify
+$ cd formify
+$ source ../bin/activate
 Install required packages
 $ pip install -r requirements
 Run server
