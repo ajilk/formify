@@ -40,3 +40,8 @@ https://docs.djangoproject.com/en/2.1/ref/forms/api/#accessing-clean-data
 Why because form is specified by a model and a model already specifies
 everything about the form. Form are rendered always exactly the same. So go
 through the fields that model describes and display them.*
+
+
+### Notes
+Checkout Model.from_db() function  
+Look into FormSets for models
